@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker { image 'python:3.5.1' } }
+    agent { node { label 'ip-172-31-1-159' } }
     stages {
         stage('build') {
             steps {
