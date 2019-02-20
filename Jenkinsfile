@@ -1,5 +1,5 @@
 pipeline {
-    agent { node { label 'ip-172-31-1-159' } }
+    agent { node { 'localhost' } }
     stages {
         stage('build') {
             steps {
